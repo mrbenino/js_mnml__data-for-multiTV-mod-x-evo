@@ -20,20 +20,20 @@ _____________________________
 _____________________________
 <pre><code>
 [[DocLister?
-		&parents=`4`
-		&tvPrefix=``
-		&tvList=`image,price,price 4,event`
-		&display=`all`
-		&orderBy=`menuindex DESC`
-		&tpl='@CODE:
-    	&lt;div&gt;
-      	  &lta; href="[+url+]"&gt;
-            &lt;div&gt;&lt;img src="[+image+]" alt=""&gt;&lt;/div&gt;
-            &lt;p&gt;[+pagetitle+]&lt;/p&gt;
+	&parents=`4`
+	&tvPrefix=``
+	&tvList=`image,price,price 4,event`
+	&display=`all`
+	&orderBy=`menuindex DESC`
+	&tpl='@CODE:
+		&lt;div&gt;
+		&lta; href="[+url+]"&gt;
+		&lt;div&gt;&lt;img src="[+image+]" alt=""&gt;&lt;/div&gt;
+		&lt;p&gt;[+pagetitle+]&lt;/p&gt;
 			&lt;p&gt;&ltspan&gt;[+price+]&lt;/span&gt; - &lt;span&gt;[+price 4+]&lt;/span&gt;&lt;/p&gt;
-      	  &lt;/a&gt;
+		&lt;/a&gt;
 		  &lt;data class="[+url+]"&gt;[+event+]&lt;/data&gt;
 		  &lt;ul id="[+url+]"&gt;&lt;/ul&gt;
-    	&lt;/div&gt;'
-	 ]]
+		&lt;/div&gt;'
+]]
 </pre></code>
