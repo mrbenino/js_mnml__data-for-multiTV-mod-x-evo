@@ -3,7 +3,7 @@
 
 пример отработаного скрипта
 _____________________________
-<code><pre>
+<pre><code>
 <div>
   <a href="/event/event-1.html">
     <div><img src="assets/images/evo-logo.png" alt=""></div>
@@ -15,10 +15,10 @@ _____________________________
     <li>18-12-2018 00:00:00</li>
   </ul>
 </div>
-</code></pre>
+</pre></code>
 и пример из самого движка 
 _____________________________
-<code><pre>
+<pre><code>
 [[DocLister?
 		&parents=`4`
 		&tvPrefix=``
@@ -36,4 +36,4 @@ _____________________________
 		  <ul id="[+url+]"></ul>
     	</div>'
 	 ]]
-</code></pre>
+</pre></code>
