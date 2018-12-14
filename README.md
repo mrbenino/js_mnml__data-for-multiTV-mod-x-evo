@@ -3,7 +3,7 @@
 
 пример отработаного скрипта
 _____________________________
-&lt;pre	&gt;&lt;code&gt;
+<pre><code>
 &lt;div&gt;
   &lta; href="/event/event-1.html"&gt;
     &lt;div&gt;&lt;img src="assets/images/evo-logo.png" alt=""&gt;&lt;/div&gt;
@@ -15,7 +15,7 @@ _____________________________
     &lt;li&gt;18-12-2018 00:00:00&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/div&gt;
-&lt;/pre&gt;&lt;/code&gt;
+</pre><c/ode>
 и пример из самого движка 
 _____________________________
 <pre><code>
