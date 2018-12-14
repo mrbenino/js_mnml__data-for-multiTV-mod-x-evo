@@ -3,19 +3,19 @@
 
 пример отработаного скрипта
 _____________________________
-<pre><code>
-<div>
-  <a href="/event/event-1.html">
-    <div><img src="assets/images/evo-logo.png" alt=""></div>
-      <p>Event 1</p>
-    <p><span>120</span> - <span>480</span></p>
-  </a>
-	<data class="/event/event-1.html">{"fieldValue":[{"event":"18-12-2018 00:00:00"}],"fieldSettings":{"autoincrement":1}}</data>
-  <ul id="/event/event-1.html">
-    <li>18-12-2018 00:00:00</li>
-  </ul>
-</div>
-</pre></code>
+&lt;pre	&gt;&lt;code&gt;
+&lt;div&gt;
+  &lta; href="/event/event-1.html"&gt;
+    &lt;div&gt;&lt;img src="assets/images/evo-logo.png" alt=""&gt;&lt;/div&gt;
+      &lt;p&gt;Event 1&lt;/p&gt;
+    &ltp;&gt;&ltspan&gt;120&lt;/span&gt; - &lt;span&gt;480&lt;/span&gt;&lt;/p&gt;
+  &lt;/a&gt;
+	&lt;data class="/event/event-1.html"&gt;{"fieldValue":[{"event":"18-12-2018 00:00:00"}],"fieldSettings":{"autoincrement":1}}&lt;/data&gt;
+  &lt;ul id="/event/event-1.html"&gt;
+    &lt;li&gt;18-12-2018 00:00:00&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;/pre&gt;&lt;/code&gt;
 и пример из самого движка 
 _____________________________
 <pre><code>
@@ -26,14 +26,14 @@ _____________________________
 		&display=`all`
 		&orderBy=`menuindex DESC`
 		&tpl='@CODE:
-    	<div>
-      	  <a href="[+url+]">
-            <div><img src="[+image+]" alt=""></div>
-            <p>[+pagetitle+]</p>
-			<p><span>[+price+]</span> - <span>[+price 4+]</span></p>
-      	  </a>
-		  <data class="[+url+]">[+event+]</data>
-		  <ul id="[+url+]"></ul>
-    	</div>'
+    	&lt;div&gt;
+      	  &lta; href="[+url+]"&gt;
+            &lt;div&gt;&lt;img src="[+image+]" alt=""&gt;&lt;/div&gt;
+            &lt;p&gt;[+pagetitle+]&lt;/p&gt;
+			&lt;p&gt;&ltspan&gt;[+price+]&lt;/span&gt; - &lt;span&gt;[+price 4+]&lt;/span&gt;&lt;/p&gt;
+      	  &lt;/a&gt;
+		  &lt;data class="[+url+]"&gt;[+event+]&lt;/data&gt;
+		  &lt;ul id="[+url+]"&gt;&lt;/ul&gt;
+    	&lt;/div&gt;'
 	 ]]
 </pre></code>
